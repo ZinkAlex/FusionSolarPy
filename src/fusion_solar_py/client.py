@@ -571,7 +571,7 @@ class FusionSolarClient:
             url=f"https://{self._huawei_subdomain}.fusionsolar.huawei.com/rest/pvms/web/station/v1/station/station-list",
             json={
                 "curPage": 1,
-                "pageSize": 10,
+                "pageSize": 100,
                 "gridConnectedTime": "",
                 "queryTime": self._get_day_start_sec(),
                 "timeZone": 2,
